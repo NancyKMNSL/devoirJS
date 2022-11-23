@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="./style/Equation.css">
+        <link rel="stylesheet" href="Equation.css">
         <script src="Equation.js" type="text/javascript" defer></script>
         <title>Equation du second dégré</title>
     </head>
     <body>
         <div class="equation-part">
+            <h2>Résolution d'une équation du second dégré</h2>
             <h3>Veuillez entrer les coefficients de votre équation</h3>
             <div class="eq-part">
                 <input id="coef_a" type="text">
@@ -17,8 +18,10 @@
                 <input id="coef_b" type="text">
                 <span>x+</span>
                 <input id="coef_c" type="text">
-                <button onclick="calculer()">=</button>
+                <span>=</span>
                 <span>0</span>
+                <br>
+                <button onclick="calculer()">résoudre</button>
             </div>
             <div id="error-part">
                 Une erreur s'est produite, Veuillez vérifier vos coefficients.
