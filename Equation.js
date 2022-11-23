@@ -1,15 +1,3 @@
-document.addEventListener("DOMContentLoaded", (evt) => {
-    const calculerBtn = document.querySelector("button[id='calculer']");
-    const coef_a_input = document.querySelector("input[name='coef_a']");
-    const coef_b_input = document.querySelector("input[name='coef_b']");
-    const coef_c_input = document.querySelector("input[name='coef_c']");
-
-    const errorpart = document.querySelector("div[id='error-part']")
-    const solutionpart = document.querySelector("div[id='solution-part']")
-
-
-});
-
 function calculer() {
     let coef_a = document.getElementById("coef_a");
     let coef_b = document.getElementById("coef_b");
