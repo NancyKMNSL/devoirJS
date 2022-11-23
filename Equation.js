@@ -56,8 +56,8 @@ const getSolutions = (delta,a,b,c) => {
 
     if (delta === 0) {
         const x0 = (-b) / (2 * a);
-        solution += "Δ=0, alors l'éqution admet une solution réelle.";
-        solution += `x<sub>0</sub>=${x0}`;
+        solution += "Δ=0, alors l'équation admet une solution réelle.";
+        solution += `<br>x<sub>0</sub>=${x0}`;
         return solution;
     }
 
